@@ -13,7 +13,8 @@
     "start": "truffle -- serve",
     "lint": "standard",
     "lint-fix": "standard --fix",
-    "truffle": "truffle"
+    "truffle": "truffle",
+    "postinstall": "truffle compile"
   },
   "devDependencies": {
     "babel-plugin-syntax-async-functions": "^6.1.4",
