@@ -14,7 +14,7 @@
     "lint": "standard",
     "lint-fix": "standard --fix",
     "truffle": "truffle",
-    "postinstall": "truffle compile"
+    "postinstall": "npm install && truffle compile"
   },
   "devDependencies": {
     "babel-plugin-syntax-async-functions": "^6.1.4",
