@@ -14,7 +14,7 @@
     "lint": "standard",
     "lint-fix": "standard --fix",
     "truffle": "truffle",
-    "postinstall": "npm install zeppelin-solidity && truffle compile"
+    "compile_contracts": "truffle compile"
   },
   "devDependencies": {
     "babel-plugin-syntax-async-functions": "^6.1.4",
